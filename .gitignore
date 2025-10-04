@@ -1,0 +1,51 @@
+# Dependencies
+/vendor/
+/node_modules/
+
+# Environment
+.env
+.env.local
+.env.production
+.env.development
+
+# Logs
+*.log
+logs/
+php_errors.log
+
+# Database
+*.sqlite
+*.db
+/database/*.sqlite
+
+# Cache
+/cache/
+/tmp/
+/sessions/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Uploads
+/uploads/
+/temp/
+
+# Backup
+*.backup
+*.bak
+
+# Composer
+composer.lock
+/composer.phar
+
+# Deployment
+/.buildpath
+/.project
+/.settings/

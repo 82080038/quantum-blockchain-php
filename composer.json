@@ -1,0 +1,27 @@
+{
+    "name": "82080038/quantum-blockchain-php",
+    "description": "Quantum-Blockchain Integrated Autonomous Trading System with PHP, MySQL, and jQuery",
+    "type": "project",
+    "keywords": ["quantum", "blockchain", "trading", "autonomous", "php", "mysql"],
+    "homepage": "https://github.com/82080038/quantum-blockchain-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Quantum Blockchain Team",
+            "email": "team@quantum-blockchain.com",
+            "homepage": "https://github.com/82080038"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "QuantumBlockchain\\": "src/"
+        }
+    }
+}
